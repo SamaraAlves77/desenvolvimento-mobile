@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title>Top10 Linguagens de programação</title>
+</head>
+<body>
+	<h4><strong>Top 10 Linguagens de programação mais utilizadas no ano de 2020</strong></h4>
+	<h5><strong>Linguagem de progamação</strong></h5>
+	<ol>
+	    <li>Java</li>
+	    <li>C</li>
+	    <li>Python</li>
+	    <li>C++</li>
+	    <li>C#</li>
+	    <li>--</li>
+	    <li>JavaScript</li>
+	    <li>PHP</li>
+	    <li>SQL</li>
+	    <li>--</li>
+	</ol>
+</body>
+</html>
