@@ -1,1 +1,38 @@
+<html> 
+ <!--Tag html: que inicia o código HTML-->
+	
+	<head> 
+ <!--Tag head: que guarda informações gerais sobre o documento, como seu título e links, estes elementos não são visíveis para o usuário-->
+			
+	<title>Logo SENAC</title> 
+
+ <!-- Tag titlle: que define o título que aparecerá na barra de título do navegador-->
+	
+	</head> 
+
+ <!--Fechamento da tag head-->
+	
+	<body> 
+ <!--Tag body:indica que entre ela e seu fechamento deve ser mostrada dentro da janela principal do navegador-->
+	<a href ="https://www.pi.senac.br/"  target="_blank">Logo Senac</a>
+ <!--Tag a: insere um link em alguma palavra ou expressão--> 
+ <!--Tag href: local para onde o link deve redirecionar-->
+ <!--Tag target: indica onde o link deve abrir-->
+	
+	<img
+ 	src = "https://upload.wikimedia.org/wikipedia/commons/8/86/Senac_logo.svg"
+ 	width = "450px"
+ 	alt= "Logo Senac"
+ <!--Tag img: para inserir uma imagem em uma página web-->
+ <!--Atributo src: para informar onde se encontra o local de armazenamento da imagem--> 
+ <!--Atributo width: que define o tamanho horizontal ocupado por uma tag na tela do navegador-->
+	
+
+ <!--Atributo alt: Texto alternativo que é exibido quando a imagem quando a imagem não pode ser exibida-->
+	
+ <!--Fechamento da tag img-->
+	</body>
+ <!--Fechamanto da tag body-->
+ <!--Fechamento da tag html-->
+</html>
 
