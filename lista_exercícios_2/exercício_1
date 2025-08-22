@@ -1,1 +1,14 @@
+<html>
+<head>
+    <title>Utilizando imagens</title>
+</head>
+<body>
+    <img
+        src="https://i0.wp.com/blog.cicloorganico.com.br/wp-content/uploads/2023/07/flores.jpg?fit=2000%2C1333"
+	alt="Margaridas rosas e amarelas"
+        width="450px"
+        
+    >
+</body>
 
+</html>
