@@ -1,5 +1,9 @@
+.card{
+	border: 1px solid gray;
+	width: 450px;
+}
 .conteudo{
-     padding: 20px;
+     padding: 18px;
 
 }
 .cabecalho{
