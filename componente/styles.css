@@ -1,0 +1,39 @@
+}
+
+.conteudo{
+     padding: 20px;
+
+}
+.cabecalho{
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.titulo{
+	float: left;
+}
+
+.preco{
+	float: right;
+}
+
+.description{
+	margin-top: 50px;
+	margin-botton: 15px;
+	text-aling: justify;
+	
+}
+
+.acoes{
+	text-align:center;
+}
+
+.botao{
+	background-color: green;
+	width: 400px;
+	border-radius: 9px;
+	padding: 5px 0px;
+	color: white;
+	border: 0px;
+	cursor: pointer;
+}
