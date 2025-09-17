@@ -1,15 +1,21 @@
-header nav div{
+@media (max-width: 768px ) {
+    header {
 	background-color: blue;
-	padding: 60px;
-	font-size: 60px;
+	padding: 30px 20px;
+	font-size: 36px;
 
+}
+
+.margem-do-topo{
+	margin-top: -20px;
 }
 
 .esquerda {
 	float: left;
 }
+
 .direita{
-	float:right;
+	float: right;
 }
 
 main {
@@ -17,49 +23,51 @@ main {
 	font-size: 50px;
 	display: flex;
 	justify-content: center;
-	width: 100vw;
+	width:100%;
+	
 }
+
 .card{
 	border: 1px solid gray;
-	width: 94vw;
+	max-width: 100%;
 	
 }
 .conteudo{
      padding: 20px;
 
 }
-.cabecalho{
+.cabecalho {
 	font-size: 26px;
 	font-weight: 700;
 }
 
-.titulo{
-	font-size: 80px;
+.titulo {
+	font-size: 36px;
 	
 }
 
 .preco{
-	font-size: 60px;
+	font-size: 32px;
 
 }
 
-.description{
+.description {
 	margin-top: 50px;
 	margin-bottom: 15px;
 	text-aling: justify;
-	font-size: 48px;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-
+	font-size: 28px;
+	
 }
 
-a{
+a {
 	text-decoration: underline;
 	color: black;
 	padding: 4px 8px;
 	border-radius: 20px;
+	font-size: 24px;
+
 }
+
 .acoes{
 	text-align: center;
 	margin-top: 20px;
@@ -67,11 +75,102 @@ a{
 
 .botao{
 	background-color: green;
-	min-width: 800px;
+	min-width: 100%;
 	border-radius: 9px;
 	padding: 8px 0px;
 	color: white;
 	border: 0px;
 	cursor: pointer;
-	font-size: 48px;
+	font-size: 28px;
+	}
+}
+
+@media (min-width: 769px ) {
+    header {
+	background-color: red;
+	padding: 30px 20px;
+	font-size: 36px;
+
+}
+
+.margem-do-topo{
+	margin-top: -20px;
+
+}
+
+
+.esquerda {
+	float: left;
+}
+.direita{
+	float: right;
+}
+
+.imagem{
+	width: 450px;
+
+}
+
+main {
+	padding-top: 290px;
+	font-size: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.card{
+	border: 1px solid gray;
+	max-width: 550px;
+}
+
+.conteudo{
+     padding: 20px;
+
+}
+
+.cabecalho{
+	font-size: 26px;
+	font-weight: 700;
+}
+
+.titulo{
+	font-size: 32px;
+	
+}
+
+.preco{
+	font-size: 28px;
+
+}
+
+.description{
+	margin-top: 50px;
+	margin-bottom: 15px;
+	text-aling: justify;
+	font-size: 22px;
+}
+
+a{
+	text-decoration: underline;
+	color: black;
+	padding: 4px 8px;
+	border-radius: 20px;
+	font-size: 22px;
+}
+
+.acoes{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.botao{
+	background-color: green;
+	min-width: 100%;
+	border-radius: 9px;
+	padding: 8px 0px;
+	color: white;
+	border: 0px;
+	cursor: pointer;
+	font-size: 20px;
+	}
 }
